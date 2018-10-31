@@ -1,0 +1,57 @@
+body {
+    background-color : #71BADC;
+    font-size : 1em;
+	font-family: Arial, "Arial Black", "Comic Sans MS","Courier New",Georgia,Impact,"Times New Roman","Trebuchet MS",Verdana;
+    line-height : 2em;
+}
+
+/*Esthétique des blocs*/
+#nom, #experience, #hobbys, #philosophie, #liens, #code {
+    background-color: white;
+    padding : 25px;
+    margin : 15px;
+    width : 100%;
+    max-width : 480px;
+    border: 2px solid #0B5D9A;
+    box-shadow: 5px 10px 10px #0B5D9A;
+}
+
+/*Esthétique de la photo*/
+img {
+    height: 20%;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 130px;
+    box-shadow: 5px 5px 10px #0B5D9A;
+}
+
+/*Centrage des blocs*/
+img, #nom, #experience, #hobbys, #philosophie, #liens, #code  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Esthétique des titres*/
+h2, h1 {
+    color : #E06187;
+    font-style: italic;
+}
+
+h2 {text-decoration: underline;}
+
+/*Cacher les barres de séparation*/
+hr {display : none;}
+
+/*Esthétique du tableau*/
+
+table {
+    border: medium solid #C2EAFD;
+
+}
+
+td, th {
+    border: thin solid #C2EAFD;
+    padding: 5px;
+    text-align: center;
+}
